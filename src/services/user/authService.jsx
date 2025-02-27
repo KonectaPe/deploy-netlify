@@ -1,8 +1,7 @@
 import Swal from "sweetalert2";
 import axiosInstance from "../../lib/axios/axiosGlobal";
 
-const API_URL =
-  "http://app-test-env.eba-zfx5v5n8.us-east-2.elasticbeanstalk.com";
+const API_URL = "http://zk8ggcckckwk0sksgs84w4ck.82.25.66.141.sslip.io";
 
 export const loginRequest = async ({ user }) => {
   try {

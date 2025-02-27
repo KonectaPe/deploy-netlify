@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { loginRequest, logoutRequest, verifyToken } from "../user/authService";
 import { useNavigate } from "react-router";
-import AuthContext from "./AuthContext";
+import { AuthContext } from "./AuthContext";
 
 export const AuthProvider = ({ children }) => {
   const [userVerify, setUserVerify] = useState(null);
