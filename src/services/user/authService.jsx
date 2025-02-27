@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 import axiosInstance from "../../lib/axios/axiosGlobal";
 
-const API_URL = "http://zk8ggcckckwk0sksgs84w4ck.82.25.66.141.sslip.io";
+const API_URL = "https://valkyra.live";
 
 export const loginRequest = async ({ user }) => {
   try {
