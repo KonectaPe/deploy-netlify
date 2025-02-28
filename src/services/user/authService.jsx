@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 import axiosInstance from "../../lib/axios/axiosGlobal";
 
-const API_URL = "https://valkyra.live";
+const API_URL = "https://lotteryapi.valkyra.live";
 
 export const loginRequest = async ({ user }) => {
   try {
